@@ -12,3 +12,17 @@ function month(m) {
 }
 console.log(month(21));
 ///////////////////////////////////
+//Вывести первые числа
+for ( let i = 10; i <= 100; i++) {
+   let str = String(i);
+   console.log(str[0]);
+}
+//////////////////////////////////
+//Сумма первого и второго числа
+for ( let i = 10; i <= 100; i++) {
+    let str = String(i);
+    let sum = Number(str[0]) + Number(str[1]);
+    console.log(sum);
+}
+//////////////////////////////////
+//
