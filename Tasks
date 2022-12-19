@@ -8,9 +8,7 @@ function month(m) {
         return "Summer";
     }else if (m == 9 || m <= 11 ) {
         return "Autumn";
-    }
-    return "NewMonth";
+    }   return "NewMonth";
 }
 console.log(month(21));
 ///////////////////////////////////
-//
