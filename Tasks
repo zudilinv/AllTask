@@ -34,4 +34,15 @@ var summation = function (num) {
   return res;
 }
 //////////////////////////////////
+//Вывести МИН число из массива
+var min = function(list){
+    list.sort((a, b) => a - b);
+    return list[0];
+}  //То же--const min = (list) => Math.min(...list);
+//Вывести МАКС число из массива
+var max = function(list){
+    list.sort((a, b) => b - a);
+    return list[0];
+}  //То же--const max = (list) => Math.max(...list);
+//////////////////////////////////
 //
